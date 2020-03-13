@@ -1,0 +1,43 @@
+{
+  "name": "task-2-web-admin-rest-api",
+  "version": "0.0.1",
+  "description": "backend for admin web application",
+  "author": "Alexey Tsukanov",
+  "main": "src/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "bluebird": "3.5.0",
+    "body-parser": "1.17.0",
+    "cors": "2.8.3",
+    "dotenv-safe": "6.0.0",
+    "express": "4.15.2",
+    "express-validation": "1.0.2",
+    "helmet": "3.5.0",
+    "http-status": "1.0.1",
+    "joi": "10.4.1",
+    "jwt-simple": "0.5.6",
+    "lodash": "4.17.4",
+    "method-override": "3.0.0",
+    "moment-timezone": "0.5.13",
+    "mongoose": "5.2.17",
+    "morgan": "1.8.1",
+    "passport": "0.4.0",
+    "passport-http-bearer": "1.0.1",
+    "passport-jwt": "4.0.0",
+    "winston": "3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "6.4.0",
+    "eslint-config-airbnb-base": "12.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "nodemon": "2.0.1"
+  }
+}
